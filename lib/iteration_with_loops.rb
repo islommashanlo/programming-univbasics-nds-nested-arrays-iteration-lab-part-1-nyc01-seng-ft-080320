@@ -7,7 +7,7 @@ results = []
   while array_index < src.length do
     element_index = 0
     while element_index < src[array_index].length do
-      if src[array_index] % 2 = 0
+      if src[array_index] % 2 == 0
         results.push(src[array_index])
       end
       element_index += 1
