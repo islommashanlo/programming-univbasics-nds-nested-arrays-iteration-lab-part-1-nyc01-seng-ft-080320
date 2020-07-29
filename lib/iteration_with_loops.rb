@@ -7,8 +7,7 @@ results = []
   while array_index < src.length do
     element_index = 0
     while element_index < src[array_index].length do
-      even_elements = src[array_index]
-      results.push(src.array_index) if src[array_index].even?
+      src[array_index].select { |x| x.even? }
       element_index += 1
     end
     array_index += 1
