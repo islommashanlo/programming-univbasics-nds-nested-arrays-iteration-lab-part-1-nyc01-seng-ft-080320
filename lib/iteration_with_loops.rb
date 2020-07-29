@@ -8,6 +8,7 @@ results = []
     element_index = 0
     while element_index < src[array_index].length do
       if src[array_index].even?
+        results.push(src[array_index])
         p src[array_index]
       end
       element_index += 1
