@@ -10,5 +10,7 @@ array_index = 0
         p src[array_index]
       end
       element_index += 1
-
+    end
+    array_index += 1
+  end
 end
