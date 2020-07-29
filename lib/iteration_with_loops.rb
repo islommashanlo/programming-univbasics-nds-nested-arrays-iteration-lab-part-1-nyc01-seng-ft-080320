@@ -13,4 +13,5 @@ results = []
     end
     array_index += 1
   end
+  p results
 end
